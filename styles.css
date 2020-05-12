@@ -14,7 +14,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: poppins, sans-serif;
-    -webkit-appearance: none;
 }
 
 body {
@@ -106,6 +105,7 @@ input {
     width: 100%;
     border-style: none;
     outline: none;
+    appearance: none;
 }
 
 input[type=text],
