@@ -26,8 +26,11 @@ body {
     flex-wrap: wrap;
     align-items: center;
     user-select: none;
-    height: 100vh;
+    max-width: 1240px;
+    -webkit-appearance: none;
 }
+
+/* HERO */
 
 .container {
     display: flex;
@@ -41,6 +44,8 @@ body {
 .col {
     width: 500px;
 }
+
+/* HEADER */
 
 header {
     margin-bottom: 20px;
@@ -158,7 +163,7 @@ small {
     }
 
     /* HEADER */
-    
+
     
     /* MAIN */
 
